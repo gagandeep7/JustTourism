@@ -1,0 +1,41 @@
+<%- include ('partials/header') %>
+<div class="header">
+    <div class="container">
+        <h1 class="brand">
+          <span>Sign</span> Up
+        </h1>
+        <div class="wrapper animated bounceInLeft">
+          <div class="company-info">
+            <h3>JustTourism Pvt Ltd.</h3>
+            <ul>
+              <li><i class="fa fa-road"></i> G.G.S Avenue,New Delhi</li>
+              <li><i class="fa fa-phone"></i> +91-7009093819</li>
+              <li><i class="fa fa-envelope"></i> JustTourism@gmail.com</li>
+            </ul>
+          </div>
+            <div class="contact">
+              <form action="/register" method="POST">
+                <p>
+                  <label>Name</label>
+                  <input type="text" name="username" placeholder="username">
+                </p>
+                <p>
+                  <label>Password</label>
+                  <input type="password" name="password" placeholder="password" required>
+                </p>
+                <p class="full">
+                    <button>Submit</button>
+                </p>
+              </form>
+          </div>
+        </div>
+      </div>
+
+<!-- <h1>Sign Up</h1>
+<form action="/register" method="POST">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <button>Sign Up</button>
+</form>
+</div> -->
+<%- include ('partials/footer') %>

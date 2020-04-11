@@ -1,0 +1,48 @@
+<%- include ('../partials/header') %>
+
+<div class="container">
+    <header class="jumbotron" id="jumbo">
+        <div class="container text-center">
+            <h1>Welcome to JustTourism</h1>
+            <p>An Adventurous Trips for your soul</p>
+           <% if(obj){ %>
+
+            <%} %>
+            <p><a href="/campgrounds/new" class="btn btn-primary btn-lg">Add New Tourist Place</a></p>
+        </header>
+        <div class="back">
+            <div class="row text-center">
+                <% data.forEach(function(e){ %>
+                   <% if(e.name){%>
+                        <div class="col-md-3">
+                            <div class="thumbnail" id="index_img">        
+                                <img src="<%= e.image %>" alt="">
+                                <div class="caption">
+                                    <strong><%= e.name %> </strong> 
+                                </div>
+                                <p>
+                    
+                                    <a href="/campgrounds/<%= e._id %>" class = "btn btn-info">More Info</a>
+                                </p>
+                            </div>    
+                            
+                        </div>
+                    <%}%>
+                    
+                <%})%>
+            </div>    
+                
+           
+            
+        </div>
+           
+       
+    
+    </div>
+    
+    
+    <%- include ('../partials/footer') %>
+    
+
+        </div>
+        

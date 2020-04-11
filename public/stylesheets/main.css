@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    position: relative;
+    z-index: 1;
+    padding-top: 40vh;
+}
+
+#navhead{
+    margin-bottom: 3rem;
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    
+}
+
+* {
+    /* padding: 0px;
+      margin: 0px; */
+    box-sizing: border-box;
+  }
+  
+  body {
+    background:#92bde7;
+    color: #485e74;
+    line-height: 1.6;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  span{
+      color :white;
+  }
+  
+  .brand {
+    text-align: center;
+    font-size: 5rem;
+  }
+  
+  .brand span {
+    color: #fff;
+  }
+  .wrapper {
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+  }
+  
+  .contact {
+    background: #f9feff;
+  }
+  
+  .wrapper > * {
+    padding: 1em;
+  }
+  
+  .company-info {
+    background-color: #c9e6ff;
+  }
+  
+  .company-info > h3,
+  .company-info > ul {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+  
+  .contact form label {
+    display: block;
+  }
+  
+  .contact form p {
+    margin: 0;
+  }
+  
+  .contact form .full {
+    /* for full width 1 to 3 */
+    grid-column: 1/3;
+  }
+  
+  .contact form button,
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #c9e6ff;
+  }
+  
+  .contact form button {
+    background-color: #c9e6ff;
+    border: 0;
+    text-transform: uppercase;
+  }
+  
+  .contact form button:hover,
+  .contact form button:focus {
+    background-color: #92bde7;
+    color: white;
+    outline: 0;
+    transition: background-color 2s ease-out;
+  }
+  
+
+#navhead .navbar-brand{
+    font-size: 3rem;
+}
+
+#navhead .navbar-collapse a{
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+.img-responsive{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+#img-full{
+    padding: 0;
+ 
+}
+
+#index_img{
+    position: relative;
+    z-index: 1;
+  
+}
+
+.thumbnail .caption-full{
+    padding: 2rem;
+   
+}
+
+#delete_form{
+    display: inline;
+    z-index: 1;
+    position: relative;
+}
+
+#comment_well{
+    min-height: 150px;
+    
+
+
+}
+
+.back_image{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* bg image are behind text */
+    z-index: 0;
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    opacity: 0.8;
+
+}
+
+.container{
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+
+#jumbo{
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+#index_img >.caption{
+    color: navy;
+}
+
+#navhead .navbar-header{
+    padding: 1rem;
+}
+
+#jumbo{
+    padding: 0;
+}
+
+#jumbo .back{
+    z-index: 1;
+    position: relative;
+}
+
+
+/* Small SCREENS */
+@media(max-width:600px){
+   
+    #navhead{
+        font-size:0.56rrem;
+    }
+
+    
+}
+
+
+
